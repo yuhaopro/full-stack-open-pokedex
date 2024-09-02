@@ -1,4 +1,4 @@
-name: Hello World
+name: For fun
 
 on:
   push:
@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: say Hello
         run: echo "Hello World!"
+      - name: get date
+        run: date
+      - name: list directory
+        run: ls -la
